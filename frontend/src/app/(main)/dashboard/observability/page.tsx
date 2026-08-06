@@ -1,8 +1,8 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-import { CashFlowOverview } from "../default/_components/cash-flow-overview";
-import { IncomeReliability } from "../default/_components/income-reliability";
-import { SpendingBreakdown } from "../default/_components/spending-breakdown";
+import { CashFlowOverview } from "../projects/_components/cash-flow-overview";
+import { IncomeReliability } from "../projects/_components/income-reliability";
+import { SpendingBreakdown } from "../projects/_components/spending-breakdown";
 
 export default function Page() {
   return (

@@ -8,6 +8,7 @@ import {
   type LucideIcon,
   ShoppingBag,
   Forklift,
+  Rocket,
 } from "lucide-react";
 
 export type NavBadge = "new" | "soon";
@@ -60,10 +61,10 @@ export const sidebarItems: NavGroup[] = [
         icon: LayoutDashboard,
       },
       {
-        id: "logs",
-        title: "Logs",
-        url: "/dashboard/logs",
-        icon: ChartBar,
+        id: "deployments",
+        title: "Deployments",
+        url: "/dashboard/deployments",
+        icon: Rocket,
       },
       {
         id: "observability",

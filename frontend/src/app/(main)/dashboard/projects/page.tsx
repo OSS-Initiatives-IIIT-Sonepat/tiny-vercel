@@ -1,8 +1,5 @@
 import { CardOverview } from "./_components/card-overview";
-import { MonthlyCashFlow } from "./_components/kpis/monthly-cash-flow";
-import { NetWorth } from "./_components/kpis/net-worth";
-import { PrimaryAccount } from "./_components/kpis/primary-account";
-import { SavingsRate } from "./_components/kpis/savings-rate";
+import { ProjectCard } from "./_components/kpis/project-card";
 
 export default function Page() {
   return (
@@ -12,22 +9,22 @@ export default function Page() {
           <CardOverview />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <PrimaryAccount />
+          <ProjectCard />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <NetWorth />
+          <ProjectCard />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <MonthlyCashFlow />
+          <ProjectCard />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <SavingsRate />
+          <ProjectCard />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <PrimaryAccount />
+          <ProjectCard />
         </div>
         <div className="*:data-[slot=card]:gap-2 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card">
-          <NetWorth />
+          <ProjectCard />
         </div>
       </div>
     </div>
